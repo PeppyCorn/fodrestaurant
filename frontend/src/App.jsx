@@ -24,7 +24,7 @@ import Buscar from "./pages/Buscar";
 const App = () => (
   <AuthProvider>
     <ThemeProvider>
-      <Router>
+    <Router basename="/fodrestaurant">
         <Navbar />
         <main className="p-4">
           <Routes>
